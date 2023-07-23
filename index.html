@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+ 
+<body>
+    <div class="movie">
+    <h1 style="text-align: center;">Movie Search</h1>
+    <form class="search_form">
+        <input type="text" name="search" id="search" class=box placeholder="search a movie" onkeyup="searchMovies()">
+
+    </form>
+    <div class="movie_list">  
+    </div>
+    <div class="page" id="page"> 1
+        <a onclick="nextPage()">
+            <i class="fa fa-angle-double-right">
+            </i>
+        </a>
+    </div>
+    
+</div> 
+    <script src="./script.js"></script>
+</body>

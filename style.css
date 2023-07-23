@@ -1,0 +1,52 @@
+
+
+
+
+*{padding:0px;margin:0px;}
+.movie
+{
+    background: tan;
+    width: 100wh;
+    height: 100;
+}
+.box
+{
+    padding: 10px;
+    border-radius: 8px;
+    border-color: antiquewhite;
+}
+.search_form
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 3px; 
+}
+.movie_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style:none;
+}
+.movie_element
+{
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.movie-title
+{
+    margin: 0px;
+    margin-left:40px;
+}
+.movie_list
+{
+    display: flex;
+}
+.page
+{
+    text-align: center;
+    font-size: large;
+    font-weight: 300px;
+    border-bottom: 40px;
+}
